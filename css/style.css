@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: rgb(40, 16, 71);
+background: radial-gradient(circle, rgb(72, 30, 64) 16%, rgb(14, 29, 62, 0.816) 60%, rgb(17, 2, 59) 100%);
+ }
+
+main {
+  flex-grow: 1;
+  font-family: 'Orbitron', sans-serif;
+}
+
+footer {
+  font-family: 'Orbitron', sans-serif;
+}
+
+
+.textoAzul {
+    text-shadow: 0 0 5px rgb(67, 131, 216), 
+    0 0 10px rgb(67, 131, 216),
+    0 0 15px rgb(67, 131, 216),
+    0 0 20px rgb(67, 131, 216),
+    0 0 30px rgb(67, 131, 216),
+    0 0 40px rgb(67, 131, 216),
+    0 0 60px rgb(67, 131, 216),
+    0 0 80px rgb(67, 131, 216),
+    0 0 90px rgb(67, 131, 216),
+    0 0 100px rgb(67, 131, 216);
+
+}
+
+.textoVerde {
+    text-shadow: 0 0 5px rgb(86, 255, 53), 
+    0 0 10px rgb(86, 255, 53),
+    0 0 15px rgb(86, 255, 53),
+    0 0 20px rgb(86, 255, 53),
+    0 0 30px rgb(86, 255, 53),
+    0 0 40px rgb(86, 255, 53),
+    0 0 60px rgb(86, 255, 53),
+    0 0 80px rgb(86, 255, 53),
+    0 0 90px rgb(86, 255, 53),
+    0 0 100px rgb(86, 255, 53);
+
+}
+
+.textoRosa {
+    text-shadow: 0 0 5px rgb(187, 69, 181), 
+    0 0 10px rgb(187, 69, 181),
+    0 0 15px rgb(187, 69, 181),
+    0 0 20px rgb(187, 69, 181),
+    0 0 30px rgb(187, 69, 181),
+    0 0 40px rgb(187, 69, 181),
+    0 0 60px rgb(187, 69, 181),
+    0 0 80px rgb(187, 69, 181),
+    0 0 90px rgb(187, 69, 181),
+    0 0 100px rgb(187, 69, 181);
+
+}
+
+#btnAzul {
+    color: white;
+    background: rgb(67, 131, 216);
+}
+#btnVerde {
+    color: black;
+    background: rgb(86, 255, 53);
+}
+#btnRosa {
+    color: white;
+    background: rgb(187, 69, 181);
+}
+
+#btnAzul:hover {
+    border: 1px solid rgb(67, 131, 216);
+    color: rgb(67, 131, 216);
+}
+#btnVerde:hover {
+    border: 1px solid rgb(86, 255, 53);
+    color: rgb(86, 255, 53);
+}
+#btnRosa:hover {
+    border: 1px solid rgb(187, 69, 181);
+    color: rgb(187, 69, 181);
+}
